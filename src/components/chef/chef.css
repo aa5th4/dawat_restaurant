@@ -1,0 +1,60 @@
+.chefcontainer{
+    display: flex;
+    flex-direction: column;
+}
+
+.headingchef{
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5%;
+}
+
+.headingchef h1{
+    font-family: 'Dancing Script', cursive;
+    color: #cc3433;
+    font-size: 45px;
+}
+
+.headinglogo{
+    width: 65%;
+    padding-left: 10px;
+}
+
+.chefcards{
+    margin-top: 4%;
+    display: flex;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-bottom: 10%;
+    justify-content: space-evenly;
+    gap: 17px;
+}
+.chefs{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    gap: 16px;
+}
+.chefname{
+    
+    font-family: 'Lato', sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+}
+.chefdesc{
+    padding-left: 3px;
+    padding-right: 3px;
+    font-family: 'Lato', sans-serif;
+    font-weight: 300;
+    font-size: 15px;
+}
+
+.content4{
+    display: flex;
+    flex-direction: column;
+}
+.content4 a{
+    flex: 1;
+    align-items: flex-end;
+}
+
