@@ -1,0 +1,41 @@
+.story{
+    display: flex;
+    flex-direction: column;
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-top: 70px;
+    gap: 20px;
+
+}
+
+.story>h1{
+    font-family: 'Dancing Script', cursive;
+    color: rgb(182, 25, 25);
+    font-size: 60px;
+    text-align: center;
+
+}
+.para{
+    margin-top: 35px;
+    font-size: 15px;
+    letter-spacing: 1px;
+    display: flex;
+    font-family: 'PT Sans Narrow', sans-serif;
+    letter-spacing: 1px;
+    gap: 40px;
+}
+
+.sign{
+    position: relative;
+    width: 40vh;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+.background{
+    position: relative;
+    width: 100%;
+   
+}
+

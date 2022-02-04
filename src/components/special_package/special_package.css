@@ -1,0 +1,137 @@
+.special{
+    position: relative;
+}
+.hdimg{
+    width: 100%;
+    margin-top: 14vh;
+    text-align: center;
+}
+.hdimg h1{
+    font-size: 40px;
+    font-family: 'Dancing Script', cursive;
+    color: rgb(179, 58, 58);
+}
+.bgimg{
+    position: relative;
+    margin: 0 ;
+    width: 100%;
+    height: 100vh;
+    background-image: url('../promopage/promo_slide_2.jpg');
+    background-repeat: no-repeat;
+    background-size: cov;
+}
+
+.special::before{
+    content:'';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    margin-bottom: 5%;
+    height: 40px; 
+    background: linear-gradient(135deg, #f3f3ec 25%, transparent 0) -20px 0,
+    linear-gradient(225deg, #f8f8f6 25%, transparent 0) -20px 0;
+    background-repeat: repeat-x;
+    background-size: 16px 23px;
+    z-index: 1;
+
+}
+
+
+.insidecard{
+    top: 0;
+    position: absolute;
+    background-color: rgba(0,0,0, 0.7);
+    margin: 0 ;
+    height: 100vh;
+    width: 100%;
+    overflow-x: hidden;
+}
+.cardss{
+    display: flex;
+    margin-top: 50px;
+   
+}
+
+
+.imgcard{
+    position: relative;
+    width: 80vh;
+    height: 45vh;
+}
+
+
+
+.carddiv button{
+    color: red;
+    border-color: red;
+    background-color: white;
+    padding: 5px;
+    font-size: 13px;
+}
+
+.carddiv button:hover{
+    color: white;
+    border-color: white;
+    background-color: red;
+}
+
+.divandcard-active{
+    flex: 90%;
+    width: 100vh;
+    display: flex;
+    opacity: 1;
+    transform: translateX(30%);
+
+}
+
+.divandcard{
+    display: none;
+    opacity: 0;
+    transform: translateX(0%);
+    transition: all 5s;
+
+}
+
+.carddiv{
+
+    position: absolute;
+    transform: translate(110%, 77px);
+    background-color: white;
+    color: black;
+    width: 39vh;
+    height: 19vh;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+    padding: 20px;
+}
+
+
+
+.indicators{
+    position: absolute;
+    top: 85%;
+    left: 50%;
+    bottom: 20px;
+    transform: translateX(50%);
+}
+
+.indicators span{
+    display: inline-block ;
+    margin: 2px;
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    background: rgba(255,255,255,0.5);
+    cursor: pointer;
+
+}
+
+
+#btn2{
+    opacity: 0;
+    width: 5px;
+    height: 15px;
+}
